@@ -100,14 +100,22 @@ How it works?
 
 ## Follow-up
 
-Follow-up: How would you design a long-running process that exceeds the execution time limit?
-Follow-up: In what scenarios would you use one over the other?
-Follow-up: Suppose one of your Lambda functions is throttling. How would you troubleshoot and resolve it?
-Follow-up: What are the differences in retry behavior for each of these sources, and how do you handle poison messages?
-Follow-up: How does provisioned concurrency impact costs and scalability for high-traffic applications?
-Follow-up: How would you design an error-handling strategy using Dead Letter Queues (DLQs) and EventBridge retries?
-Follow-up: How would you architect a system to handle payloads larger than the 6 MB synchronous invocation limit?
+- How would you design a long-running process that exceeds the execution time limit?
 
-Follow-up: Suppose you have multiple Lambda functions that share a large set of dependencies. How would you structure your layers to optimize performance and maintainability?
-Follow-up: How would you trace a specific request through a system involving multiple Lambda functions and downstream services?
-Follow-up: How would you ensure that a Lambda function accessing sensitive data adheres to the principle of least privilege?
+- In what scenarios would you use one over the other?
+
+- Suppose one of your Lambda functions is throttling. How would you troubleshoot and resolve it?
+
+- What are the differences in retry behavior for each of these sources, and how do you handle poison messages?
+
+- How does provisioned concurrency impact costs and scalability for high-traffic applications?
+
+- How would you design an error-handling strategy using Dead Letter Queues (DLQs) and EventBridge retries?
+
+- How would you architect a system to handle payloads larger than the 6 MB synchronous invocation limit?
+
+- Suppose you have multiple Lambda functions that share a large set of dependencies. How would you structure your layers to optimize performance and maintainability?
+
+- How would you trace a specific request through a system involving multiple Lambda functions and downstream services?
+
+- How would you ensure that a Lambda function accessing sensitive data adheres to the principle of least privilege?
